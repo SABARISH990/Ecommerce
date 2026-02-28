@@ -8,13 +8,13 @@ export default function ProductCard({ product }) {
         {product.images && product.images.length > 0 ? (
           <img
             src={product.images[0].image} // first image
-            alt={product.name}
+            alt="card"
             className="card-img-top"
           />
         ) : (
           <img
             src="https://via.placeholder.com/150" // fallback image
-            alt="no image"
+            alt="card2"
             className="card-img-top"
           />
         )}
