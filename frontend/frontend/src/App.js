@@ -11,6 +11,7 @@ import { Cart } from './pages/Cart';
 
 function App() {
  const [cartItems,setCartItems] = useState([]);
+console.log("asjnfdkjn");
 
   return (
     <div className="App">
